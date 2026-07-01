@@ -2,7 +2,7 @@
 
 
 
-\*\*Part of the \[StreamMind](https://github.com/shreya-patel-PM) AI Product Builder portfolio — 27 agents across streaming, PM automation, and pharma.\*\*
+\*\*Part of the \[StreamMind](https://github.com/shreya-patel-PM) AI Product Builder portfolio — 20 agents across streaming, PM automation, and pharma.\*\*
 
 
 
