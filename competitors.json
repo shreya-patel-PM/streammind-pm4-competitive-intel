@@ -1,0 +1,29 @@
+{
+  "competitors": [
+    {
+      "name": "Netflix",
+      "focus_areas": ["ad-supported tier growth", "live sports expansion", "games integration", "content spend changes", "AI features"],
+      "product_url": "https://about.netflix.com/en/news"
+    },
+    {
+      "name": "Disney+",
+      "focus_areas": ["bundle pricing changes", "Hulu integration", "content library changes", "subscriber growth", "ad tier"],
+      "product_url": "https://thewaltdisneycompany.com/news"
+    },
+    {
+      "name": "Amazon Prime Video",
+      "focus_areas": ["Thursday Night Football", "Freevee integration", "X-Ray features", "MGM catalog", "ad-supported changes"],
+      "product_url": "https://press.aboutamazon.com/news-releases"
+    },
+    {
+      "name": "Apple TV+",
+      "focus_areas": ["original content strategy", "MLS Season Pass", "bundle with Apple One", "pricing changes", "award campaigns"],
+      "product_url": "https://www.apple.com/newsroom"
+    },
+    {
+      "name": "Max (HBO)",
+      "focus_areas": ["Discovery+ merger content", "pricing tiers", "live sports", "original series pipeline", "international expansion"],
+      "product_url": "https://press.wbd.com/us/media-center"
+    }
+  ]
+}
