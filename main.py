@@ -1,5 +1,7 @@
-from dotenv import load_dotenv
-load_dotenv()
+import os
+if os.path.exists(".env"):
+    from dotenv import load_dotenv
+    load_dotenv()
 # Debug: check which env vars are set
 import sys
 required_vars = ["ANTHROPIC_API_KEY", "RESEND_API_KEY", "NOTION_TOKEN", "NOTION_DATABASE_ID", "EMAIL_TO", "EMAIL_FROM"]
