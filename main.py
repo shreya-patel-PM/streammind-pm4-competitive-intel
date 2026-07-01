@@ -1,5 +1,17 @@
 from dotenv import load_dotenv
 load_dotenv()
+# Debug: check which env vars are set
+import sys
+required_vars = ["ANTHROPIC_API_KEY", "RESEND_API_KEY", "NOTION_TOKEN", "NOTION_DATABASE_ID", "EMAIL_TO", "EMAIL_FROM"]
+for var in required_vars:
+    val = os.environ.get(var, "")
+    print(f"  {var}: {'SET (' + str(len(val)) + ' chars)' if val else 'MISSING'}")
+
+missing = [v for v in required_vars if not os.environ.get(v)]
+if missing:
+    print(f"\nERROR: Missing environment variables: {', '.join(missing)}")
+    print("Add these as GitHub Actions secrets or in your .env file")
+    sys.exit(1)
 
 """
 StreamMind — PM Agent #4: Competitive Intelligence Agent
